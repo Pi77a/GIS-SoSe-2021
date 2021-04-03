@@ -6,12 +6,17 @@
     <title>Willkomen zu meinem Portfolio</title>
 </head>
 
-<header>
-    <h1>Willkomen zu meinem Portfolio</h1>
-    <audio src="data/hello_there.mp3" autoplay></audio>
-</header>
-
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Gis"> Grundlagen interaktiver Systeme</a></li>
+                <li><a href="#ComGra"> Computergrafik</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Willkomen zu meinem Portfolio</h1>
+    <audio src="data/hello_there.mp3" controls></audio>
     <h2>Über diese Seite</h2>
     <img src="data/Benedict_Arndt_8063.jpg" width=500px height:=375px>
     <div>Hey, ich heiße Benedict Arndt und auf dieser Seite zeige ich mein Portfolio.
@@ -26,7 +31,7 @@
 
 
     <h1>Jetzige Projekte</h1>
-    <h2>GIS Praktikum</h2>
+    <h2 id="Gis">GIS Praktikum</h2>
     <table>
         <thead>
         <tr>
@@ -37,7 +42,7 @@
     <tbody>
         <tr>
           <td><img src="data/Praktikum1.PNG" width="550px" height="295px"></td>
-          <td><li>Coming soon...</li>></td>
+          <td><span>Coming soon...</span>></td>
         </tr>
         <tr>
             <td><a href="https://pi77a.github.io/GIS-SoSe-2021/Praktikum1/index.html">Klicke hier</a></td>
@@ -46,7 +51,7 @@
         </tbody>
       </table>
 
-    <h2>ComGra Praktikum</h2>
+    <h2 id="ComGra">ComGra Praktikum</h2>
     <table>
         <thead>
         <tr>
